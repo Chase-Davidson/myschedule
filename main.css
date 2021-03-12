@@ -1,0 +1,35 @@
+body {
+  background-image: url("banner.jpg");
+  font-weight: bold;
+  font-size: 14pt;
+  font-family: 'Domine', serif;
+  opacity: 75%;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+table {
+  width: 55%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+table, th, td {
+  border: 2px white solid;
+  text-align: center;
+}
+
+h1  {
+  text-align: center;
+  color: white;
+}
+tr:nth-child(even){
+  background-color: white; color: blue;
+}
+tr:nth-child(odd){
+  background-color: blue; color: white;
+}
+th, td {
+  padding-right: 15px;
+}
